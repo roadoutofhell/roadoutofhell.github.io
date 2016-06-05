@@ -165,7 +165,7 @@ body .main-wrapper article img {
   margin: 0 auto;
 }
 
-body .main-wrapper article #estiKornel {
+body .main-wrapper article .estiKornel {
   font-size: 14px;
   display: inline-block;
   margin-bottom: 10px;
@@ -179,7 +179,7 @@ body .main-wrapper article #estiKornel {
   box-shadow: 2px 2px 0 #000;
 }
 
-body .main-wrapper article #estiKornel:active {
+body .main-wrapper article .estiKornel:active {
   left: 1px;
   top: 2px;
   box-shadow: 0 0 0 #000;
@@ -419,7 +419,7 @@ body .main-wrapper article #estiKornel:active {
   margin: 0 auto;
 }
 
-.work-belt2 .work-wrap .work-container .workplace #estiKornel, .work-belt2 .work-wrap2 .work-container .workplace #estiKornel, .work-belt2 .work-wrap3 .work-container .workplace #estiKornel {
+.work-belt2 .work-wrap .work-container .workplace .estiKornel, .work-belt2 .work-wrap2 .work-container .workplace .estiKornel, .work-belt2 .work-wrap3 .work-container .workplace .estiKornel {
   font-size: 14px;
   display: inline-block;
   margin-bottom: 10px;
@@ -433,7 +433,7 @@ body .main-wrapper article #estiKornel:active {
   box-shadow: 2px 2px 0 #000;
 }
 
-.work-belt2 .work-wrap .work-container .workplace #estiKornel:active, .work-belt2 .work-wrap2 .work-container .workplace #estiKornel:active, .work-belt2 .work-wrap3 .work-container .workplace #estiKornel:active {
+.work-belt2 .work-wrap .work-container .workplace .estiKornel:active, .work-belt2 .work-wrap2 .work-container .workplace .estiKornel:active, .work-belt2 .work-wrap3 .work-container .workplace .estiKornel:active {
   left: 1px;
   top: 2px;
   box-shadow: 0 0 0 #000;
