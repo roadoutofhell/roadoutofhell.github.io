@@ -20,8 +20,8 @@
   font-family: 'Tangerine', serif;
   display: block;
   font-size: 150px;
-  color: #ffffff;
-  text-shadow: -1px -1px 5px #000, 4px 4px 0 #000;
+  color: #B12C1A;
+  text-shadow: -1px -1px 3px #000, 2px 2px 0 #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -51,14 +51,14 @@
 }
 
 body {
-  background: url(../images/luggage2.jpg);
-  background-size: cover;
-  background-position: center center;
+  background: url(../images/londonbg2crop.jpg);
+  background-position: center bottom;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 body .main-content {
-  padding: 25vh 10vw 5vh;
+  padding: 25vh 12vw 5vh;
   overflow: scroll;
 }
 
@@ -66,8 +66,8 @@ body .main-wrapper {
   border: 1px solid black;
   display: flex;
   height: 100%;
-  padding: 20px 40px 40px 40px;
-  background: rgba(71, 69, 68, 0.6);
+  padding: 20px 20px 40px 20px;
+  background: #E6EFF1;
   border-radius: 1.5em;
 }
 
@@ -76,12 +76,12 @@ body .main-wrapper hr {
   border: 0;
   height: 2px;
   background: #969696;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.6));
 }
 
 body .main-wrapper aside {
-  text-shadow: 0.5px 0.5px 0 #000;
-  color: white;
+  text-shadow: 0.25px 0.25px 0 #000;
+  color: #302558;
   font-family: 'Vollkorn', serif;
   float: right;
   border: 1px solid black;
@@ -90,7 +90,7 @@ body .main-wrapper aside {
   padding: 20px;
   margin-top: 40px;
   text-align: justify;
-  background: rgba(93, 91, 90, 0.5);
+  background: #C3DFDC;
   border-radius: 1em;
 }
 
@@ -133,14 +133,13 @@ body .main-wrapper aside #counter img {
 }
 
 body .main-wrapper article {
-  text-shadow: 0.5px 0.5px 0 #000;
+  text-shadow: 0.25px 0.25px 0 #000;
   font-family: 'Vollkorn', serif;
-  font-weight: 400;
   float: left;
   padding: 5%;
   width: 65%;
   margin-right: 5px;
-  color: white;
+  color: #302558;
 }
 
 body .main-wrapper article .datum {
@@ -273,10 +272,11 @@ body .main-wrapper article .estiKornel:active {
   width: 100%;
   height: 50px;
   float: left;
-  background: #232323;
+  background: #3069D1;
   position: relative;
   text-align: center;
   line-height: 2;
+  color: white;
 }
 
 .main-content .main-wrapper aside .slider-wrap:hover {
@@ -289,7 +289,7 @@ body .main-wrapper article .estiKornel:active {
   width: 100%;
   height: 100px;
   float: left;
-  background: #e8e8e8;
+  background: #0D3886;
   position: absolute;
   top: 0;
   left: 0;
@@ -300,7 +300,7 @@ body .main-wrapper article .estiKornel:active {
   border: 0;
   height: 1px;
   width: 80%;
-  background-image: -webkit-linear-gradient(left, #efefcc, rgba(0, 0, 0, 0.23), #efefcc);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.6));
 }
 
 .main-content .main-wrapper aside .slider-wrap .slider p {
@@ -308,7 +308,7 @@ body .main-wrapper article .estiKornel:active {
   letter-spacing: 0.2em;
   padding: 10px 0;
   margin: 0;
-  color: black;
+  color: white;
 }
 
 .main-content .main-wrapper aside .slider-wrap .slider p:hover {
