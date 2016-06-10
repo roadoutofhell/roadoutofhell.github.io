@@ -277,8 +277,8 @@ body .main-wrapper article .estiKornel:active {
 
 @media screen and (max-width: 320px) {
   body {
-    background-size: 700px;
-    background-position: 35% 0%;
+    background-size: 800px;
+    background-position: 30% 0%;
   }
   body .main-content {
     padding: 10vh 5vw 5vh 25vw;
