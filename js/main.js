@@ -43,5 +43,6 @@ function workBelt2(){
         $('.work-wrap').hide(400);
         $('.work-wrap2').hide(400);
         $('.work-wrap3').hide(400);
+        $('#slider1').slideUp(300);
     });
 }
