@@ -358,13 +358,13 @@ body .main-wrapper article .estiKornel:active {
   overflow-x: hidden;
 }
 
-.work-belt2 .work-wrap, .work-belt2 .work-wrap2, .work-belt2 .work-wrap3 {
+.work-belt2 .work-wrap, .work-belt2 .work-wrap2, .work-belt2 .work-wrap3, .work-belt2 .work-wrap4 {
   width: 50%;
   float: right;
   display: none;
 }
 
-.work-belt2 .work-wrap .work-return, .work-belt2 .work-wrap2 .work-return, .work-belt2 .work-wrap3 .work-return {
+.work-belt2 .work-wrap .work-return, .work-belt2 .work-wrap2 .work-return, .work-belt2 .work-wrap3 .work-return, .work-belt2 .work-wrap4 .work-return {
   height: 40px;
   width: 40px;
   cursor: pointer;
@@ -376,44 +376,44 @@ body .main-wrapper article .estiKornel:active {
 }
 
 @media screen and (max-width: 768px) {
-  .work-belt2 .work-wrap .work-return, .work-belt2 .work-wrap2 .work-return, .work-belt2 .work-wrap3 .work-return {
+  .work-belt2 .work-wrap .work-return, .work-belt2 .work-wrap2 .work-return, .work-belt2 .work-wrap3 .work-return, .work-belt2 .work-wrap4 .work-return {
     left: 72%;
     top: 155px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .work-belt2 .work-wrap .work-return, .work-belt2 .work-wrap2 .work-return, .work-belt2 .work-wrap3 .work-return {
+  .work-belt2 .work-wrap .work-return, .work-belt2 .work-wrap2 .work-return, .work-belt2 .work-wrap3 .work-return, .work-belt2 .work-wrap4 .work-return {
     left: 80%;
     top: 100px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .work-belt2 .work-wrap .work-return, .work-belt2 .work-wrap2 .work-return, .work-belt2 .work-wrap3 .work-return {
+  .work-belt2 .work-wrap .work-return, .work-belt2 .work-wrap2 .work-return, .work-belt2 .work-wrap3 .work-return, .work-belt2 .work-wrap4 .work-return {
     left: 75%;
   }
 }
 
-.work-belt2 .work-wrap .work-container, .work-belt2 .work-wrap2 .work-container, .work-belt2 .work-wrap3 .work-container {
+.work-belt2 .work-wrap .work-container, .work-belt2 .work-wrap2 .work-container, .work-belt2 .work-wrap3 .work-container, .work-belt2 .work-wrap4 .work-container {
   max-width: 60%;
   margin: 120px auto;
 }
 
 @media screen and (max-width: 768px) {
-  .work-belt2 .work-wrap .work-container, .work-belt2 .work-wrap2 .work-container, .work-belt2 .work-wrap3 .work-container {
+  .work-belt2 .work-wrap .work-container, .work-belt2 .work-wrap2 .work-container, .work-belt2 .work-wrap3 .work-container, .work-belt2 .work-wrap4 .work-container {
     margin: 100px auto;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .work-belt2 .work-wrap .work-container, .work-belt2 .work-wrap2 .work-container, .work-belt2 .work-wrap3 .work-container {
+  .work-belt2 .work-wrap .work-container, .work-belt2 .work-wrap2 .work-container, .work-belt2 .work-wrap3 .work-container, .work-belt2 .work-wrap4 .work-container {
     margin: 50px auto;
     max-width: 85%;
   }
 }
 
-.work-belt2 .work-wrap .work-container .workplace, .work-belt2 .work-wrap2 .work-container .workplace, .work-belt2 .work-wrap3 .work-container .workplace {
+.work-belt2 .work-wrap .work-container .workplace, .work-belt2 .work-wrap2 .work-container .workplace, .work-belt2 .work-wrap3 .work-container .workplace, .work-belt2 .work-wrap4 .work-container .workplace {
   font-family: 'Vollkorn', serif;
   font-weight: 400;
   margin-right: 5px;
@@ -426,41 +426,41 @@ body .main-wrapper article .estiKornel:active {
 }
 
 @media screen and (max-width: 425px) {
-  .work-belt2 .work-wrap .work-container .workplace, .work-belt2 .work-wrap2 .work-container .workplace, .work-belt2 .work-wrap3 .work-container .workplace {
+  .work-belt2 .work-wrap .work-container .workplace, .work-belt2 .work-wrap2 .work-container .workplace, .work-belt2 .work-wrap3 .work-container .workplace, .work-belt2 .work-wrap4 .work-container .workplace {
     font-size: 14px;
     font-weight: 500;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .work-belt2 .work-wrap .work-container .workplace, .work-belt2 .work-wrap2 .work-container .workplace, .work-belt2 .work-wrap3 .work-container .workplace {
+  .work-belt2 .work-wrap .work-container .workplace, .work-belt2 .work-wrap2 .work-container .workplace, .work-belt2 .work-wrap3 .work-container .workplace, .work-belt2 .work-wrap4 .work-container .workplace {
     padding: 15px;
   }
 }
 
-.work-belt2 .work-wrap .work-container .workplace .datum, .work-belt2 .work-wrap2 .work-container .workplace .datum, .work-belt2 .work-wrap3 .work-container .workplace .datum {
+.work-belt2 .work-wrap .work-container .workplace .datum, .work-belt2 .work-wrap2 .work-container .workplace .datum, .work-belt2 .work-wrap3 .work-container .workplace .datum, .work-belt2 .work-wrap4 .work-container .workplace .datum {
   opacity: 0.8;
 }
 
-.work-belt2 .work-wrap .work-container .workplace h3, .work-belt2 .work-wrap2 .work-container .workplace h3, .work-belt2 .work-wrap3 .work-container .workplace h3 {
+.work-belt2 .work-wrap .work-container .workplace h3, .work-belt2 .work-wrap2 .work-container .workplace h3, .work-belt2 .work-wrap3 .work-container .workplace h3, .work-belt2 .work-wrap4 .work-container .workplace h3 {
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
-.work-belt2 .work-wrap .work-container .workplace .entry, .work-belt2 .work-wrap2 .work-container .workplace .entry, .work-belt2 .work-wrap3 .work-container .workplace .entry {
+.work-belt2 .work-wrap .work-container .workplace .entry, .work-belt2 .work-wrap2 .work-container .workplace .entry, .work-belt2 .work-wrap3 .work-container .workplace .entry, .work-belt2 .work-wrap4 .work-container .workplace .entry {
   line-height: 1.2;
   text-align: justify;
   padding-bottom: 5%;
 }
 
-.work-belt2 .work-wrap .work-container .workplace img, .work-belt2 .work-wrap2 .work-container .workplace img, .work-belt2 .work-wrap3 .work-container .workplace img {
+.work-belt2 .work-wrap .work-container .workplace img, .work-belt2 .work-wrap2 .work-container .workplace img, .work-belt2 .work-wrap3 .work-container .workplace img, .work-belt2 .work-wrap4 .work-container .workplace img {
   display: block;
   height: 50%;
   width: 50%;
   margin: 0 auto;
 }
 
-.work-belt2 .work-wrap .work-container .workplace .estiKornel, .work-belt2 .work-wrap2 .work-container .workplace .estiKornel, .work-belt2 .work-wrap3 .work-container .workplace .estiKornel {
+.work-belt2 .work-wrap .work-container .workplace .estiKornel, .work-belt2 .work-wrap2 .work-container .workplace .estiKornel, .work-belt2 .work-wrap3 .work-container .workplace .estiKornel, .work-belt2 .work-wrap4 .work-container .workplace .estiKornel {
   font-size: 14px;
   display: inline-block;
   margin-bottom: 10px;
@@ -474,7 +474,7 @@ body .main-wrapper article .estiKornel:active {
   box-shadow: 2px 2px 0 #000;
 }
 
-.work-belt2 .work-wrap .work-container .workplace .estiKornel:active, .work-belt2 .work-wrap2 .work-container .workplace .estiKornel:active, .work-belt2 .work-wrap3 .work-container .workplace .estiKornel:active {
+.work-belt2 .work-wrap .work-container .workplace .estiKornel:active, .work-belt2 .work-wrap2 .work-container .workplace .estiKornel:active, .work-belt2 .work-wrap3 .work-container .workplace .estiKornel:active, .work-belt2 .work-wrap4 .work-container .workplace .estiKornel:active {
   left: 1px;
   top: 2px;
   box-shadow: 0 0 0 #000;
