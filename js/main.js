@@ -37,12 +37,19 @@ function workBelt2(){
         $('.main-wrapper').fadeOut(400);
     });
 
+    $('#2016junius').click(function(){
+        $('.work-belt2').css('left','-100%');
+        $('.work-wrap4').show(400);
+        $('.main-wrapper').fadeOut(400);
+    });
+
     $('.work-return').click(function(){
         $('.work-belt2').css('left','0%');
         $('.main-wrapper').fadeIn(400);
         $('.work-wrap').hide(400);
         $('.work-wrap2').hide(400);
         $('.work-wrap3').hide(400);
+        $('.work-wrap4').hide(400);
         $('#slider1').slideUp(300);
     });
 }
